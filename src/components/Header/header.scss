@@ -1,0 +1,33 @@
+@import 'src/styles/vars';
+
+.header-content {
+  background-color: $headerFooterColor;
+  color: $writeColor;
+  font-size: 2.5rem;
+  padding-bottom: $gutter;
+
+  .header-title-content {
+
+    border-bottom: 2px solid $writeColor;
+    padding-bottom: $gutter;
+
+    .header-bigTitle {
+      font-weight: bold;
+      font-size: 5rem;
+      text-align: left;
+      padding-left: $gutter;
+      padding-top: $gutter;
+    }
+  
+    .header-title {
+      font-size: 3rem;
+      text-align: left;
+      padding-left: 15rem;
+    }
+  }
+ 
+  .website-description {
+    padding: $gutter;
+    
+  }
+}
