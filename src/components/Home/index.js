@@ -4,7 +4,7 @@ import './home.scss';
 
 const Home = () => (
   <main>
-    allez plus hooommmmeee!!!!
+    <p className="website-description"> " Bienvenu sur le site de créations handmade pour enfants "</p>
   </main>
 );
 

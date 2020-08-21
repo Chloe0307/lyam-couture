@@ -7,9 +7,9 @@
   padding-bottom: $gutter;
 
   .header-title-content {
-
     border-bottom: 2px solid $writeColor;
     padding-bottom: $gutter;
+    margin-bottom: $gutter;
 
     .header-bigTitle {
       font-weight: bold;
@@ -24,10 +24,5 @@
       text-align: left;
       padding-left: 15rem;
     }
-  }
- 
-  .website-description {
-    padding: $gutter;
-    
   }
 }
