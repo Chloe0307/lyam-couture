@@ -5,6 +5,7 @@
   color: $writeColor;
   font-size: 2.5rem;
   padding-bottom: $gutter;
+  border-bottom: 2px solid $writeColor;
 
   .header-title-content {
     border-bottom: 2px solid $writeColor;
@@ -23,6 +24,11 @@
       font-size: 3rem;
       text-align: left;
       padding-left: 15rem;
+    }
+
+    .header-picture {
+      width: 200px;
+      
     }
   }
 }
