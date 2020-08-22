@@ -2,7 +2,7 @@ import React from 'react';
 // == import NPM
 import styled from 'styled-components';
 
-import RightNav from './RightNav';
+import Burger from './Burger';
 
 // Nav styled-component
 const Nav = styled.nav`
@@ -23,7 +23,7 @@ const Navbar = () => (
     <div className="logo">
       Nav!bar
     </div>
-    <RightNav />
+    <Burger />
   </Nav>
 );
 

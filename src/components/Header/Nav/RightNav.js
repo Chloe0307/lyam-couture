@@ -12,9 +12,11 @@ const Ul = styled.ul`
   li {
     padding: 18px 10px;
     font-size: 1rem;
+    color: #527590;
   }
 
   @media (max-width: 768px) {
+    display: none;
     flex-flow: column nowrap;
     background-color: #EEEFEA;
     position: fixed;
@@ -24,6 +26,9 @@ const Ul = styled.ul`
     height: 100vh;
     padding-top: 3.5rem;
 
+    li {
+
+    }
   }
 `;
 
