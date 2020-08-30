@@ -10,12 +10,12 @@ import './header.scss';
 
 const Header = () => (
   <header className="header-content">
+    <Nav />
     <div className="header-title-content">
       <h1 className="header-bigTitle"><strong>Lya'm</strong></h1>
       <h2 className="header-title">Couture...</h2>
       <img src={Picture} alt="photo de présentation de produits" className="header-picture" />
     </div>
-    <Nav />
   </header>
 );
 
