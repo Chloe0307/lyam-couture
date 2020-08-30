@@ -10,15 +10,19 @@ const StyledBurger = styled.div`
   position: fixed;
   top: 50px;
   right: 90px;
-  display: flex;
-  justify-content: space-around;
-  flex-flow: column nowrap;
+  z-index: 20;
+  display: none;
 
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+  } 
   div {
     width: 2rem;
     height: 0.25rem;
-    ${'' /* ternaire explication: if burger menu is open: logo burger is in grey : else in black  */}
-    background-color: ${({ open }) => open ? '#CDDCDF' : '#527590'};
+    ${'' /* ternaire explication: if burger menu is open: logo burger is in grey : else in blue  */}
+    background-color: ${({ open }) => open ? '#FEB29B' : '#527590'};
     border-radius: 10px;
     transform-origin: 1px;
     transition: all 0.3s linear;
@@ -48,7 +52,7 @@ const Burger = () => {
         <div />
         <div />
       </StyledBurger>
-      <RightNav />
+      <RightNav open={open} />
     </>
   );
 };
