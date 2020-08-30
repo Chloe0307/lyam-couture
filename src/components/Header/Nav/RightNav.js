@@ -5,7 +5,6 @@ import styled from 'styled-components';
 
 // Ul styled-component
 const Ul = styled.ul`
-
   display: flex;
   flex-flow: column nowrap;
   background-color: #EEEFEA;
@@ -30,13 +29,13 @@ const Ul = styled.ul`
   }
 
   @media (min-width: 1024px) {
+    list-style: none;
     display: flex;
     flex-flow: row nowrap;
-    padding-top: 1.5rem;
 
     li {
-      padding-left: 18px;
-      font-size: 1rem;
+      padding-left: 15px;
+      font-size: 2rem;
       color: #527590;
     }
   }
