@@ -4,30 +4,23 @@
   background-color: $headerFooterColor;
   color: $writeColor;
   font-size: 2.5rem;
-  padding-bottom: $gutter;
   border-bottom: 2px solid $writeColor;
 
   .header-title-content {
-    padding-bottom: $gutter;
-    margin-bottom: $gutter;
-
+ 
     .header-bigTitle {
       font-weight: bold;
       font-size: 5rem;
       text-align: left;
       padding-left: $gutter;
       padding-top: $gutter;
+      padding-bottom: 1.2rem;
     }
   
     .header-title {
       font-size: 3rem;
       text-align: left;
-      padding-left: 15rem;
-    }
-
-    .header-picture {
-      width: 200px;
-      
+      padding-left: 10rem;
     }
   }
 }

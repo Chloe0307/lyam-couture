@@ -29,12 +29,11 @@ const Ul = styled.ul`
   }
 
   @media (min-width: 1024px) {
-    list-style: none;
     display: flex;
+    justify-content: space-around;
     flex-flow: row nowrap;
 
     li {
-      padding-left: 15px;
       font-size: 2rem;
       color: #527590;
     }
