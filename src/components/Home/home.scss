@@ -1,6 +1,85 @@
 @import 'src/styles/vars';
 
-.website-description {
+
+.main-content {
+  margin-top: $gutter;
+
+  .website-description {
     padding: $gutter;
+    font-size: 2rem;
+    color: $writeColor;
+    margin-bottom: $gutter;
+  }
+
+
+  .pictures {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-left: $gutter * 1.5;
     
+
+    .first-presentation {
+      display: flex;
+      flex-flow: row;
+      border: 2px solid $headerFooterColor;
+      margin-right: 1.5rem;
+
+      .picture1 {
+        width: 200px;
+        height: 40vh;
+      }
+
+      .description {
+        width: 200px;
+        height: 40vh;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        line-height: 2rem;
+        text-align: left;
+      }
+    }
+
+    .second-presentation {
+      display: flex;
+      flex-flow: row;
+      border: 2px solid $headerFooterColor;
+      margin-right: 1.5rem;
+
+      .picture2 {
+        width: 200px;
+        height: 40vh;
+      }  
+
+      .description {
+        width: 200px;
+        height: 40vh;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        line-height: 2rem;
+        text-align: left
+      }
+    }
+    
+    .third-presentation {
+      display: flex;
+      flex-flow: row;
+      border: 2px solid $headerFooterColor;
+      margin-right: 1.5rem;
+
+      .picture3 {
+        width: 200px;
+        height: 40vh;
+      }
+
+      .description {
+        width: 200px;
+        height: 40vh;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        line-height: 2rem;
+        text-align: left
+      }
+    }
+  }
 }

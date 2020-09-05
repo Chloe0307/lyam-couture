@@ -29,6 +29,7 @@ const Ul = styled.ul`
   }
 
   @media (min-width: 1024px) {
+    
     display: flex;
     justify-content: space-around;
     flex-flow: row nowrap;
