@@ -1,0 +1,29 @@
+@import 'src/styles/vars';
+
+.footer-content {
+  margin-top: $gutter;
+  background-color: $headerFooterColor;
+  height: 20vh;
+  border-top: 2px solid $writeColor;
+
+  .footer-nav {
+    margin-top: $gutter * 2;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+   
+    
+    li {
+      color: $writeColor;
+      font-size: 1.5rem;
+      padding-left: 2rem;
+      list-style: none;
+    }
+
+    .copyright {
+      margin-top: 0.4rem;
+      margin-left: 3rem;
+
+    }
+  }
+}
