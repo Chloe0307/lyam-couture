@@ -1,6 +1,7 @@
 import React from 'react';
 
 // == import NPM
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 
 // Ul styled-component
@@ -43,12 +44,24 @@ const Ul = styled.ul`
 // RightNav component
 const RightNav = ({ open }) => (
   <Ul open={open}>
-    <li>Accueil</li>
-    <li>Nos produits</li>
-    <li>Galerie</li>
-    <li>Connexion</li>
-    <li>Deconnexion</li>
-    <li>Contact</li>
+    <li className="rightNav-li">
+      <Link className="rightNav-link" to="/home">Accueil</Link>
+    </li>
+    <li className="rightNav-li">
+      <Link className="rightNav-link" to="/products">Nos produits</Link>
+    </li>
+    <li className="rightNav-li">
+      <Link className="rightNav-link" to="/galery">Galerie</Link>
+    </li>
+    <li className="rightNav-li">
+      <Link className="rightNav-link" to="/loggin">Connexion</Link>
+    </li>
+    <li className="rightNav-li">
+      <Link className="rightNav-link" to="/logout">Deconnexion</Link>
+    </li>
+    <li className="rightNav-li">
+      <Link className="rightNav-link" to="/contact">Contact</Link>
+    </li>
   </Ul>
 );
 

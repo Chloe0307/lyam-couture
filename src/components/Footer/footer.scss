@@ -27,7 +27,7 @@
         line-height: 4rem;;
       }
 
-      li {
+      .footer-li {
         color: $writeColor;
         font-size: 3rem;
         list-style: none;
@@ -39,4 +39,26 @@
     padding-top: 3rem;
     color: #640070;
   }
+}
+
+@media (min-width: 1024px) {
+  .footer-content {
+    font-size: 2rem;
+    
+    .footer-nav {
+      line-height: 3rem;
+     
+      .div-SOC {
+        padding-right: 4rem;;
+        .footer-li {
+
+          .footer-link {
+            font-size: 2rem;
+          }
+        }
+      }
+    }
+    
+  }
+  
 }
