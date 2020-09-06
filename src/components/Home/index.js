@@ -11,6 +11,7 @@ import './home.scss';
 
 const Home = () => (
   <main className="main-content">
+    <img src="" alt="fanions en décorations" className="pennants-picture" />
     <p className="website-description"> " Bienvenu sur le site de créations faites mains pour enfants "</p>
     <div className="pictures">
       <div className="presentation-container">
