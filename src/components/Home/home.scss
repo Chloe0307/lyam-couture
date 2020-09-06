@@ -6,26 +6,55 @@
 
   .website-description {
     padding: $gutter;
-    font-size: 2rem;
+    font-size: 3rem;
     color: $writeColor;
     margin-bottom: $gutter;
   }
 
+  .pictures {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
 
+    .presentation-container {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      border: 3px solid $headerFooterColor;
+      margin: auto;
+      margin-bottom: 2rem;;
+
+      .picture {
+        width: 400px;
+        height: 90vh;
+      }
+
+      .description {
+        width: 400px;
+        height: 90vh;
+        font-size: 2rem;
+        color: $writeColor;
+        padding-top: 3rem;
+        text-align: center;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        line-height: 3rem;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
   .pictures {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     margin-left: $gutter * 1.5;
-    
 
-    .first-presentation {
-      display: flex;
-      flex-flow: row;
-      border: 2px solid $headerFooterColor;
-      margin-right: 1.5rem;
 
-      .picture1 {
+    .presentation-container {
+
+      .picture {
         width: 200px;
         height: 40vh;
       }
@@ -37,48 +66,6 @@
         padding-left: 1rem;
         line-height: 2rem;
         text-align: left;
-      }
-    }
-
-    .second-presentation {
-      display: flex;
-      flex-flow: row;
-      border: 2px solid $headerFooterColor;
-      margin-right: 1.5rem;
-
-      .picture2 {
-        width: 200px;
-        height: 40vh;
-      }  
-
-      .description {
-        width: 200px;
-        height: 40vh;
-        padding-top: 2rem;
-        padding-left: 1rem;
-        line-height: 2rem;
-        text-align: left
-      }
-    }
-    
-    .third-presentation {
-      display: flex;
-      flex-flow: row;
-      border: 2px solid $headerFooterColor;
-      margin-right: 1.5rem;
-
-      .picture3 {
-        width: 200px;
-        height: 40vh;
-      }
-
-      .description {
-        width: 200px;
-        height: 40vh;
-        padding-top: 2rem;
-        padding-left: 1rem;
-        line-height: 2rem;
-        text-align: left
       }
     }
   }
