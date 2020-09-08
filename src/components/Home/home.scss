@@ -25,21 +25,21 @@
       margin-bottom: 2rem;;
 
       .picture {
-        width: 400px;
-        height: 90vh;
+        width: 20rem;
+        // height: 90vh;
       }
 
       .description-container {
         .description {
-          width: 400px;
-          height: 70vh;
+          width: 20rem;
+          // height: 70vh;
           font-size: 2rem;
           color: $writeColor;
-          padding-top: 3rem;
+          padding-top: 2rem;
           text-align: center;
           padding-left: 1.5rem;
           padding-right: 1.5rem;
-          line-height: 3rem;
+          line-height: 2rem;
         }
         .home-li {
           font-size: 1.5rem;
@@ -49,7 +49,7 @@
   }
 }
 
-@media (min-width: 1024px) {
+@media screen and (min-width: 1024px) {
   .pictures {
     display: flex;
     flex-flow: row nowrap;
@@ -59,13 +59,11 @@
 
     .presentation-container {
       .picture {
-        width: 200px;
-        height: 50vh;
+        width: 20rem;
       }
 
       .description {
-        width: 200px;
-        height: 40vh;
+        width: 20rem;
         padding-top: 2rem;
         padding-left: 1rem;
         line-height: 2rem;
