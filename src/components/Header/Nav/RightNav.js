@@ -30,7 +30,6 @@ const StyledUl = styled.ul`
   }
 
   @media (min-width: 1024px) {
-    display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
 

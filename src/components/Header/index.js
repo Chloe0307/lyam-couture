@@ -10,13 +10,11 @@ import './header.scss';
 
 const Header = () => (
   <header className="header-content">
-    <div className="div-Nav">
-      <Nav />
-    </div>
+    <Nav />
     <div className="header-title-content">
-      <img src="" alt="img decoration" className="" />
+      <img src="" alt="img" className="" />
       <h1 className="header-bigTitle"><strong>Lya'm Couture</strong></h1>
-      <img src="" alt="img decoration" />
+      <img src="" alt="img" />
     </div>
   </header>
 );
