@@ -4,6 +4,11 @@
 .main-content {
   margin-top: $gutter;
 
+  .pennants-picture {
+    width: 80rem;
+    height: 15rem;
+    margin-bottom: $gutter * 2;
+  }
   .website-description {
     padding: $gutter;
     font-size: 3rem;
@@ -17,32 +22,33 @@
     justify-content: center;
 
     .presentation-container {
+      height: 35rem;
       display: flex;
       flex-flow: row nowrap;
       justify-content: center;
       border: 3px solid $headerFooterColor;
       margin: auto;
-      margin-bottom: 2rem;;
+      margin-bottom: $gutter;
 
       .picture {
-        width: 20rem;
-        // height: 90vh;
+        width: 27rem;
       }
 
       .description-container {
         .description {
-          width: 20rem;
-          // height: 70vh;
+          width: 25rem;
           font-size: 2rem;
           color: $writeColor;
-          padding-top: 2rem;
+          padding-top: $gutter * 2;
           text-align: center;
           padding-left: 1.5rem;
           padding-right: 1.5rem;
-          line-height: 2rem;
+          line-height: $gutter;
         }
         .home-li {
+          padding-top: $gutter * 3;
           font-size: 1.5rem;
+          text-decoration: underline;
         }
       }
     }
@@ -50,24 +56,33 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .main-content {
+    // .pennants-picture {
+
+    // }
+    // .website-description {
+
+    // }
+  }
   .pictures {
     display: flex;
     flex-flow: row nowrap;
     justify-content: center;
     margin-left: $gutter * 1.5;
 
-
     .presentation-container {
       .picture {
         width: 20rem;
       }
 
-      .description {
-        width: 20rem;
-        padding-top: 2rem;
-        padding-left: 1rem;
-        line-height: 2rem;
-        text-align: left;
+      .description-container {
+        .description {
+          width: 20rem;
+          padding-top: 2rem;
+          padding-left: 1rem;
+          line-height: 2rem;
+          text-align: left;
+        }
       }
     }
   }

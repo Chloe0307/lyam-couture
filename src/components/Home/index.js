@@ -6,12 +6,13 @@ import { Link } from 'react-router-dom';
 import threeBalls from 'src/assets/pictures/threeBalls.jpg';
 import bigPackage from 'src/assets/pictures/bigPackage.jpg';
 import ballsAndRabbit from 'src/assets/pictures/ballsAndRabbit.jpg';
+import pennants from 'src/assets/pictures/fanions.png';
 
 import './home.scss';
 
 const Home = () => (
   <main className="main-content">
-    <img src="" alt="fanions en décorations" className="pennants-picture" />
+    <img src={pennants} alt="fanions en décorations" className="pennants-picture" />
     <p className="website-description"> " Bienvenu sur le site de créations faites mains pour enfants "</p>
     <div className="pictures">
       <div className="presentation-container">
@@ -24,7 +25,7 @@ const Home = () => (
         </div>
       </div>
       <div className="presentation-container">
-        <img src={threeBalls} alt="trois balles de préhension" className="picture" />
+        <img src={threeBalls} alt="trois balles de préhension de couleurs et motif différents" className="picture" />
         <div className="description-container">
           <p className="description">"Balles de préhension en veux-tu, en voilà ! Pleins de couleurs et de textures différentes" </p>
           <li className="home-li">

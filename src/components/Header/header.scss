@@ -8,7 +8,9 @@
   padding-bottom: 1.5rem;
 
   .header-title-content {
- 
+    display: flex;
+    flex-flow: row nowrap;
+    
     .header-bigTitle {
       font-size: 5rem;
       text-align: left;
